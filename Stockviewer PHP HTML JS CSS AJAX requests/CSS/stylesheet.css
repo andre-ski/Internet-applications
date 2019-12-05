@@ -1,0 +1,72 @@
+/*Controls the login div form*/
+#login{
+	width: 60%;
+  	padding: 10px ;
+  	text-align: center;
+  	background-color: #add8e6;
+  	margin-top: 20px;
+	margin:0 auto;
+	border: 1px solid black;
+}
+/*Controls the welcome message colour, size etc*/
+#welcome{
+	display: none;
+  	padding: 10px ;
+  	text-align: center;
+	font-weight: bold;
+  	background-color: #add8e6;
+  	margin-top: 20px;
+   	margin:0 auto;
+   	width:60%;
+	border: 1px solid black;
+}
+/*Controls the logout div colour, size etc*/
+#logout{
+	display: none;
+  	padding: 10px ;
+  	text-align: center;
+	font-weight: bold;
+  	background-color:#71b5cc ;
+  	margin-top: 20px;
+   	margin:0 auto;
+   	width:60%;
+	border: 1px solid black;
+}
+
+
+/*Controls the stock list, and more details of stocks div colour, size etc*/
+#stock_list,#more_details{
+	display: none;
+  	padding: 10px ;
+  	text-align: left;
+  	background-color: #add8e6;
+  	margin-top: 20px;
+   	margin:0 auto;
+   	width:60%;
+	border: 1px solid black;
+}
+
+/*Controls the add stocks div colour, size etc*/
+#add_stocks{
+	display: none;
+	width: 60%;
+  	padding: 10px;
+  	text-align: left;
+  	background-color: #71b5cc;
+  	margin-top: 20px;
+	margin:0 auto;
+	border: 1px solid black;
+}
+/*Controls the heading style */
+#heading, #heading2{
+	display: none;
+  	padding: 10px ;
+  	text-align: left;
+	font-weight: bold;
+  	background-color: #71b5cc;
+  	margin-top: 20px;
+   	margin:0 auto;
+   	width:60%;
+	border: 1px solid black;
+}
+

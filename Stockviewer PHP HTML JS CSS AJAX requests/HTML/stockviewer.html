@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+	<!--html form referencing stylesheet and javascript file-->
+      <meta charset = "utf-8">
+      <title>Stock Information</title>
+      <link rel = "stylesheet" type = "text/css" href = "../CSS/stylesheet.css">
+      <script src = "../JS/stockviewer.js"></script>
+   </head>
+  	 <body> 
+		  <!-- login form where user can enter there username and password-->
+		   <div id="login">
+		   <h2>Login to your account</h2>
+				<form>
+					<!--username and password -->
+					<input type="text" id="user" name="user" placeholder="username" />
+					<input type="password" id="pass" name="pass" placeholder="password" />
+				</form>
+			<!--button to submit info in form -->
+			<button type="submit" onclick="checkLogin()">Login</button>
+		   </div>	
+				<!--divs that will contain information on stocks that are originally hidden at first -->
+				<div id="welcome"></div>
+				<div id="logout"><button type="submit" onclick="logOut()">LogOut</button></div>
+				<br>
+				<div id="heading">Your Stocks (click for more details)</div>
+				<div id="stock_list" ></div> 
+				<br>
+				<div id="add_stocks"></div> 
+				<br>
+				<div id="heading2">More Details</div>
+				<div id="more_details" ></div>
+	</body>
+</html>
+    
