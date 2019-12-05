@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<title>Dynamic Map</title>
+	<!--Links to stylesheet, javascript file and leaflet API stylesheet-->
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+   	integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   	crossorigin=""/>
+	<link rel="stylesheet" href="CSS/stylesheet.css">
+	  <script type="text/javascript" src="JS/javascript.js"></script>
+	
+  </head> 
+  <body>
+	<!--Colletion of divs for updating relevant information from javascript file-->
+	<div id="main">
+		<div id=title"> <h1> New Zealand Tourist Information </h1></div>
+		<div id="mapid"></div>
+
+		<div id="search">
+			<p>Which town would you like to visit? </p>
+			<input type="text" name="town" id="townValue">
+			<button value="Submit" onclick="fetchLocation()">Submit</button>
+		</div>
+
+		<div id="recent">
+		<p>Recent Searches:</p>
+		</div>
+
+		<div id="sunset"></div>
+		<div id="weather"></div>
+	</div>
+	<!--Calling leaflet js script at the end of HTML file-->
+	 <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+  		 integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+   			crossorigin=""></script>
+	 </body>
+</html>
